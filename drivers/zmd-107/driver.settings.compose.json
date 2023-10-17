@@ -1,0 +1,97 @@
+[
+  {
+    "id": "1",
+    "value": 99,
+    "label": {
+      "en": "Parameter 1"
+    },
+    "hint": {
+      "en": "Basic Set Level"
+    },
+    "zwave": {
+      "index": 1,
+      "size": 1
+    },
+    "attr": {
+      "min": 1,
+      "max": 99
+    },
+    "type": "number"
+  },
+  {
+    "id": "3",
+    "value": 6,
+    "label": {
+      "en": "Parameter 3"
+    },
+    "hint": {
+      "en": "Sensitivity Level (PIR sensor only)"
+    },
+    "zwave": {
+      "index": 3,
+      "size": 1
+    },
+    "attr": {
+      "min": 1,
+      "max": 10
+    },
+    "type": "number"
+  },
+  {
+    "id": "4",
+    "value": 180,
+    "label": {
+      "en": "Parameter 4"
+    },
+    "hint": {
+      "en": "Re-trigger Interval Setting (PIR sensor only)"
+    },
+    "zwave": {
+      "index": 4,
+      "size": 2
+    },
+    "attr": {
+      "min": 5,
+      "max": 3600
+    },
+    "type": "number"
+  },
+  {
+    "id": "5",
+    "value": 20,
+    "label": {
+      "en": "Parameter  5"
+    },
+    "hint": {
+      "en": "Lux Level"
+    },
+    "zwave": {
+      "index": 5,
+      "size": 1
+    },
+    "attr": {
+      "min": 1,
+      "max": 100
+    },
+    "type": "number"
+  },
+  {
+    "id": "6",
+    "value": 15,
+    "label": {
+      "en": "Parameter 6"
+    },
+    "hint": {
+      "en": "On-Off Duration"
+    },
+    "zwave": {
+      "index": 6,
+      "size": 2
+    },
+    "attr": {
+      "min": 5,
+      "max": 3600
+    },
+    "type": "number"
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "id": "com.nexazwave",
+  "version": "1.0.1",
+  "compatibility": ">=5.0.0",
+  "sdk": 3,
+  "platforms": [
+    "local"
+  ],
+  "name": {
+    "en": "Nexa Z-Wave"
+  },
+  "description": {
+    "en": "A smart and safe home"
+  },
+  "category": [
+    "security"
+  ],
+  "brandColor": "#094168",
+  "permissions": [],
+  "images": {
+    "small": "/assets/images/small.jpg",
+    "large": "/assets/images/large.jpg"
+  },
+  "author": {
+    "name": "Marius Sveipe",
+    "email": "mariusrh@gmail.com"
+  }
+}
