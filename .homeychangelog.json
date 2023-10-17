@@ -1,5 +1,8 @@
 {
   "1.0.1": {
     "en": "First commit"
+  },
+  "1.0.2": {
+    "en": "Changed name, improved app manifest"
   }
 }

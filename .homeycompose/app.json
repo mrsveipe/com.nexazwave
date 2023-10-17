@@ -1,6 +1,6 @@
 {
   "id": "com.nexazwave",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "compatibility": ">=5.0.0",
   "sdk": 3,
   "platforms": [
@@ -16,6 +16,7 @@
     "security"
   ],
   "brandColor": "#094168",
+  "source": "https://github.com/mrsveipe/com.nexazwave",
   "permissions": [],
   "images": {
     "small": "/assets/images/small.jpg",
