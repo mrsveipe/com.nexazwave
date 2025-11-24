@@ -1,0 +1,48 @@
+{
+    "name": {
+        "en": "AN-196"
+    },
+    "class": "socket",
+    "capabilities": [
+        "onoff"
+    ],
+    "images": {
+        "small": "{{driverAssetsPath}}/images/small.png",
+        "large": "{{driverAssetsPath}}/images/large.png",
+        "xlarge": "{{driverAssetsPath}}/images/xlarge.png"
+    },
+    "platforms": [
+        "local"
+    ],
+    "connectivity": [
+        "zwave"
+    ],
+    "zwave": {
+        "manufacturerId": 96,
+        "productTypeId": [
+            4
+        ],
+        "productId": [
+            14
+        ],
+        "learnmode": {
+            "instruction": {
+                "en": "Press the button on your device three times with 1.5 seconds"
+            }
+        },
+        "associationGroups": [
+            1
+        ],
+        "multiChannelNodes": {
+            "2": {
+                "name": {
+                    "en": "AN-196 Channel 2"
+                },
+                "class": "socket",
+                "capabilities": [
+                    "onoff"
+                ]
+            }
+        }
+    }
+}
