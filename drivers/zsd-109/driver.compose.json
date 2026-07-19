@@ -1,0 +1,43 @@
+{
+  "name": {
+    "en": "ZSD-109"
+  },
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "energy": {
+    "batteries": [
+      "AA",
+      "AA"
+    ]
+  },
+  "zwave": {
+    "manufacturerId": 614,
+    "productTypeId": 5,
+    "productId": 1,
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/images/learnmode.svg",
+      "instruction": {
+        "en": "Press the Test button three times within 1.5 seconds. The LED indicator will light up to confirm the smoke alarm is being added to your Z-Wave network.",
+        "no": "Trykk på Test-knappen tre ganger innen 1,5 sekunder. LED-indikatoren lyser for å bekrefte at røykvarsleren legges til i Z-Wave-nettverket."
+      }
+    },
+    "associationGroups": [
+      1
+    ]
+  },
+  "class": "sensor",
+  "capabilities": [
+    "alarm_smoke",
+    "alarm_heat",
+    "alarm_battery",
+    "measure_battery"
+  ],
+  "images": {
+    "large": "{{driverAssetsPath}}/images/large.png",
+    "small": "{{driverAssetsPath}}/images/small.png"
+  }
+}
