@@ -1,0 +1,43 @@
+{
+  "name": {
+    "en": "ZSD-109"
+  },
+  "platforms": [
+    "local"
+  ],
+  "connectivity": [
+    "zwave"
+  ],
+  "class": "sensor",
+  "capabilities": [
+    "alarm_smoke",
+    "alarm_heat",
+    "measure_battery",
+    "alarm_battery"
+  ],
+  "energy": {
+    "batteries": [
+      "AA",
+      "AA"
+    ]
+  },
+  "zwave": {
+    "manufacturerId": 614,
+    "productTypeId": 5,
+    "productId": 1,
+    "learnmode": {
+      "image": "{{driverAssetsPath}}/images/learnmode.svg",
+      "instruction": {
+        "en": "Press the Test button three times within 1.5 seconds",
+        "no": "Trykk på testknappen tre ganger innen 1,5 sekunder"
+      }
+    },
+    "associationGroups": [
+      1
+    ]
+  },
+  "images": {
+    "small": "{{driverAssetsPath}}/images/small.png",
+    "large": "{{driverAssetsPath}}/images/large.png"
+  }
+}
